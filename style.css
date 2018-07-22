@@ -1,0 +1,155 @@
+.main-container{
+    width:100%;
+}
+.first-div{
+    background-image:url(header-bg.png);
+    display:flex;
+    height:80vh;
+    align-items: center;
+    justify-content: center;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.first-div h1::before, .first-div h1::after{
+content:'';
+display:block;
+height:1px;
+width:60%;
+background-color:darkgray;
+}
+.first-div h1::before{
+    margin:0 auto 2em;
+
+}
+.first-div h1::after{
+    margin:2em auto 0;
+
+}
+
+h1{
+    color:lightskyblue;
+    line-height:1;
+    font-size:2.125rem;
+}
+h2{
+    font-family:'Six Caps',sans-serif;
+    font-size:2rem;
+    letter-spacing:2px;
+}
+h3{
+    font-size:20px !important;
+    margin:0;
+}
+h1,h2,p{
+    margin:0;
+    margin-bottom:1em;
+}
+p{
+    margin:0 !important;
+}
+img{
+    max-width:100%;
+}
+figure{
+    margin:0;
+}
+/*
+.about-me{
+    display:grid;
+    grid-template-columns: [port-start] minmax(6em,1fr) [name-start] minmax(6em,1fr) [img-end] 2fr [port-end]; 
+}
+*/
+.about-me{
+    text-align:center;
+}
+.about-h1{
+    margin:5px 0 ;
+    color:lightskyblue;
+}
+.about-paragraph{
+text-transform:capitalize;
+}
+.about-img{
+    width: 100%;
+    margin-top: 6px;
+}
+.portfolio{
+    text-align:center;
+   /* background-color:lightgray; */
+    padding:2em 0 0;
+}
+.portfolio-h1{
+    color:darkblue;
+    font-size:31px;
+}
+
+.portfolio-item{
+   /* position:relative; */
+    overflow:hidden;
+    border:1px solid lightgrey;
+    margin:5px 0;
+    box-shadow:2px 2px 10px lightgrey;
+    height:600px;
+}
+.portfolio-item img{
+    margin:5px 0;
+}
+.portfolio-item figcaption{
+   /*
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    background-color:lightskyblue;
+    opacity:.8 ;
+     */
+    color:black;
+    padding:2em 0;
+    text-align:center;
+}
+.portfolio-title{
+    font-size:3.625em;
+    /* color:white; */
+    margin-bottom:auto;
+}
+.clear-p{
+    font-size:12px;
+}
+.clear-p span{
+    font-weight:bold;
+    font-size:15px;
+}
+img{
+    display:block;
+}
+.portfolio-link{
+  /*  color:white; */
+    font-size:1rem;
+    font-weight:bold;
+    text-decoration:none;
+    border-bottom:2px solid white;
+    padding-bottom: 15px;
+    display: block;
+}
+.portfolio-link::after{
+    content: url(white.svg);
+    display:inline-block;
+    width: .8em;
+    height: .8em;
+    margin-left: .5em;
+}
+.div-container{
+    padding:45px 0;
+    background-color:lightgray;
+}
+.img-child{
+    display:inline-block;
+}
+.img-child img{
+    width:44px;
+}
+.first-child{
+    padding-right:20px;
+}
