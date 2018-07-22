@@ -2,7 +2,7 @@
     width:100%;
 }
 .first-div{
-    background-image:url(https://s22.postimg.cc/7086x5og1/header-bg.png);
+    background-image:url('https://s22.postimg.cc/7086x5og1/header-bg.png');
     display:flex;
     height:80vh;
     align-items: center;
